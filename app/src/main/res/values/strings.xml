@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">Flixster_Kotlin</string>
+    <string name="spider_man_no_way_home_clifford_the_big_red_dogclifford_the_big_red_dog">Spider-Man: No Way Home Clifford the Big Red DogClifford the Big Red Dog</string>
+    <string name="tvoverview">tvOverview</string>
+    <string name="todo">TODO</string>
 </resources>

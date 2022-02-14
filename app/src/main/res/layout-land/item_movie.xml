@@ -10,10 +10,9 @@
 
     <ImageView
         android:id="@+id/ivPoster"
-        android:layout_width="120dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
+        android:layout_width="247dp"
+        android:layout_height="131dp"
+        android:contentDescription="@string/todo"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         tools:srcCompat="@tools:sample/avatars" />
@@ -26,8 +25,8 @@
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
         android:ellipsize="end"
-        android:maxLines="2"
-        android:text="Spider-Man: No Way Home Clifford the Big Red DogClifford the Big Red Dog "
+        android:maxLines="1"
+        android:text="@string/spider_man_no_way_home_clifford_the_big_red_dogclifford_the_big_red_dog"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textColor="#EFECEC"
         app:layout_constraintEnd_toEndOf="parent"
@@ -36,16 +35,19 @@
 
     <TextView
         android:id="@+id/tvOverview"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
+        android:layout_width="454dp"
+        android:layout_height="76dp"
+        android:layout_marginStart="4dp"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
+        android:layout_marginEnd="4dp"
         android:ellipsize="end"
-        android:maxLines="5"
-        android:text="As Emily struggles to fit in at home and at school, she discovers a small red puppy who is destined to become her best friend. When Clifford magically undergoes one heck of a growth spurt, becomes a gigantic dog and attracts the attention of a genetics company, Emily and her Uncle Casey have to fight the forces of greed as they go on the run across New York City. Along the way, Clifford affects the lives of everyone around him and teaches Emily and her uncle the true meaning of acceptance and unconditional love."
+        android:maxLines="3"
+        android:text="@string/tvoverview"
+
         android:textColor="#FFFFFF"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
         app:layout_constraintStart_toEndOf="@+id/ivPoster"
         app:layout_constraintTop_toBottomOf="@+id/tvTitle" />
+        tools:text="As Emily struggles to fit in at home and at school, she discovers a small red puppy who is destined to become her best friend. When Clifford magically undergoes one heck of a growth spurt, becomes a gigantic dog and attracts the attention of a genetics company, Emily and her Uncle Casey have to fight the forces of greed as they go on the run across New York City. Along the way, Clifford affects the lives of everyone around him and teaches Emily and her uncle the true meaning of acceptance and unconditional love." />
 </androidx.constraintlayout.widget.ConstraintLayout>
